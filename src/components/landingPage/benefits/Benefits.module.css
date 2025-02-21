@@ -1,0 +1,67 @@
+.main{
+    margin: 4rem;
+    padding: 5rem;
+    border-radius: 20px;
+    background-color: #181a20;
+    color: #ffffff;
+}
+
+.heading{
+    font-family: serif;
+    font-size: 3rem;
+    line-height: 2.9rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.boxes{
+    margin-top: 8rem;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 4rem;
+}
+
+.right img{
+    height: 12rem;
+    border-radius: 20px;
+
+}
+
+.icon{
+    width: fit-content;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-inline: 1rem;
+    padding-block: 5px;
+    border-radius: 20px;
+}
+
+.icon img{
+    height: 1rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.icon p{
+    font-size: 0.9rem;
+    line-height: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.para{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    width: 65%;
+}

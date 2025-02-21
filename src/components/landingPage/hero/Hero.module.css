@@ -1,0 +1,110 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+
+.navBar img{
+    width: 2rem;
+    height: auto;
+}
+
+.navBar button{
+    height: 2rem;
+    padding-inline: 1.3rem;
+    padding-block: 5px;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    border-radius: 20px;
+    font-family: Heading;
+    background-color: #fcd535;
+    color: #000000 ;
+    cursor: pointer;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 8rem;
+    margin-block: 4rem;
+    justify-content: space-between;
+}
+.left{
+    width: 40%;
+}
+
+.welcome{
+    width: 25rem;
+    color: #ffffff;
+    padding-inline: 1rem;
+    padding-block: 5px;
+    border: 0.5px solid #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.welcome img{
+    height: 1rem;
+}
+
+.welcome p{
+    font-size: 1rem;
+    line-height: 0.9rem;
+    font-weight: 300;    
+}
+
+.heading p{
+    color: #ffffff;
+    font-size: 4rem;
+    line-height: 3.9rem;
+    font-weight:300;
+    padding-block: 2rem;
+    font-family: serif;
+}
+
+.download button{
+    padding-inline: 1.2rem;
+    height: 2rem;
+    font-size: 1rem;
+    line-height: 0.9rem;
+    color: #000000;
+    background-color: #fcd535;
+    box-shadow: 0px 0px 10px 0.1px #FCD535;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.line{
+    height: 1.5px;
+    border-radius:0.5px;
+    margin-block: 2rem ;
+    background: linear-gradient(to right, transparent, #fcd535, transparent);
+}
+
+.para p{
+    color: #ffffff;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin-top: 3rem;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.right{
+    border-width: 2px;
+    overflow: hidden;
+    width: 24rem;
+    height: 26rem;
+    border-radius: 14px;
+}
+
+.right img{
+    scale: 0.4;
+    transform: translate(-95%,-80%);
+}
+

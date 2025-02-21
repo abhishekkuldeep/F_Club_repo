@@ -1,0 +1,47 @@
+.main{
+    background-color: #ffd938;
+    margin: 6rem;
+    padding-inline: 5rem;
+    padding-block: 4rem;
+    border-radius: 10rem;
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heading h1{
+    font-family: serif;
+    font-size: 3.5rem;
+    line-height: 3.4rem;
+    font-weight: 400;
+}
+
+.heading p{
+    font-size: 1rem;
+    line-height: 1.9rem;
+    letter-spacing: 0%;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    width: 77%;
+    
+}
+
+.heading button{
+    color: #fcd535;
+    height: 2rem;
+    padding-inline: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+}

@@ -1,0 +1,87 @@
+.main{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 5rem;
+    padding-block: 3rem;
+    background-color: #181a20;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.icon{
+    height: 2rem;
+    width: 2rem;
+}
+
+.heading{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+}
+
+.followUs{
+    font-family: sans-serif;
+    color: #848e9c;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+}
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.social{
+    cursor: pointer;
+    color: #ffffff;
+    border:1px solid #ffffff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-block: 0.3rem;
+    padding-inline: 2rem;
+
+    border-radius: 25px;
+
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+    transform: translate(0,-15px);
+}
+
+.social img{
+    border: none;
+    height: 1rem;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.download p{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+}
+
+.right img{
+    height: 2.8rem;
+    cursor: pointer;
+}
