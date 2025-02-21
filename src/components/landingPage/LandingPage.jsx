@@ -11,7 +11,7 @@ function LandingPage() {
     <>
     <div className={style.main}>
         <Hero/>
-        {/* <Features/> */}
+        <Features/>
         <Benefits/>
         <Csection/>
         <Faqs/>
