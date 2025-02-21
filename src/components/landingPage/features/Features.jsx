@@ -1,6 +1,8 @@
 import style from './Features.module.css'
-
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './Features.module.css'
 
 function Features() {
   const data = [
@@ -31,6 +33,14 @@ function Features() {
     }  
   ]
 
+  const settings = {
+    dots: false,
+    infinite: false,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
   return (
     <>
     <div className={style.main}>
@@ -38,6 +48,8 @@ function Features() {
             <p>Features</p>
 
         </div>
+
+        <Slider {...settings}>
 
         { data.map( (d)=>(
         
@@ -57,6 +69,7 @@ function Features() {
         ) )
 
         }
+        </Slider>
 
     </div>
     </>
