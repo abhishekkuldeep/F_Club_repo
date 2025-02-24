@@ -5,37 +5,49 @@ import "slick-carousel/slick/slick-theme.css";
 import './Features.module.css'
 import '../../../index.css'
 
+import globalimg from '../../../assets/images/globalimg.png'
+import seamless from '../../../assets/images/seamless.png'
+import industry from '../../../assets/images/industry.png'
+import startup from '../../../assets/images/startup.png'
+import globalCard from '../../../assets/images/globalCard.png'
+
+import green_icon from '../../../assets/images/green_icon.png'
+import yellow_icon from '../../../assets/images/yellow_icon.png'
+import red_icon from '../../../assets/images/red_icon.png'
+import dblue_icon from '../../../assets/images/dblue_icon.png'
+
+
 function Features() {
   const data = [
     {
       title: `Global Networking`,
-      img: `./src/assets/images/globalimg.png`,
+      img: globalimg,
       para: `Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.`,
-      icon: `./src/assets/images/green_icon.png`
+      icon: green_icon
     },
     {
       title: `Seamless Applications`,
-      img: `./src/assets/images/seamless.png`,
+      img: seamless,
       para: `Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.`,
-      icon: `./src/assets/images/yellow_icon.png`
+      icon: yellow_icon
     },
     {
       title: `Industry Highlights`,
-      img: `./src/assets/images/industry.png`,
+      img: industry,
       para: `Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.`,
-      icon: `./src/assets/images/red_icon.png`
+      icon: red_icon
     },
     {
       title: `Startup Showcase`,
-      img: `./src/assets/images/startup.png`,
+      img: startup,
       para: `Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.`,
-      icon: `./src/assets/images/dblue_icon.png`
+      icon: dblue_icon
     },
     {
       title: `Global Networking`,
-      img: `./src/assets/images/globalCard.png`,
+      img: globalCard,
       para: `Dive into thriving communities tailored to your interests. Share ideas, seek advice, and spark innovation by connecting with like-minded individuals.`,
-      icon: `./src/assets/images/green_icon.png`
+      icon: green_icon
     }  
   ]
 
