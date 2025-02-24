@@ -22,21 +22,24 @@
     background-color: #fcd535;
     color: #000000 ;
     cursor: pointer;
+    border: none;
 }
 
 .body{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-inline: 8rem;
     margin-block: 4rem;
     justify-content: space-between;
 }
+
 .left{
-    width: 40%;
+    width: 45%;
 }
 
 .welcome{
-    width: 25rem;
+    width: 90%;
     color: #ffffff;
     padding-inline: 1rem;
     padding-block: 5px;
@@ -44,6 +47,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -62,7 +66,7 @@
     font-size: 4rem;
     line-height: 3.9rem;
     font-weight:300;
-    padding-block: 2rem;
+    margin-block: 2rem;
     font-family: serif;
 }
 
@@ -82,15 +86,15 @@
 .line{
     height: 1.5px;
     border-radius:0.5px;
-    margin-block: 2rem ;
+    margin-top: 2rem ;
     background: linear-gradient(to right, transparent, #fcd535, transparent);
 }
 
 .para p{
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-weight: 400;
     font-family: sans-serif;
 }
@@ -98,13 +102,189 @@
 .right{
     border-width: 2px;
     overflow: hidden;
-    width: 24rem;
-    height: 26rem;
-    border-radius: 14px;
+    width: 40%;
+    
 }
 
 .right img{
-    scale: 0.4;
-    transform: translate(-95%,-80%);
+    width: 100%;
 }
 
+@media (min-width:1800px){
+    .navBar img{
+        width: 5rem;
+    }
+
+    .navBar button{
+        height: 5rem;
+        padding-inline: 2.5rem;
+        padding-block: 1rem;
+        font-size: 3rem;
+        line-height: 2.9rem;
+        border-radius: 2.5rem;
+    }
+
+    .body{
+        margin: 10rem;
+    }
+
+    .welcome{
+        padding-inline: 2rem;
+        padding-block: 1rem;
+        border-radius: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .welcome img{
+        height: 2.5rem;
+    }
+    
+    .welcome p{
+        font-size: 2.4rem;
+        line-height: 2.3rem;
+        font-weight: 300;    
+    }
+
+    .heading p{
+        font-size: 8rem;
+        line-height: 7.9rem;
+    }
+
+    .download button{
+        padding-inline: 3rem;
+        height: 5rem;
+        font-size: 3rem;
+        line-height: 2.9rem;
+        border-radius: 50px;
+        margin-block:2rem;
+    }
+
+    .para p{
+        font-size: 2.3rem;
+        line-height: 2.3rem;
+    }
+}
+
+
+
+@media (max-width:64rem){
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2.5rem;
+    }
+    
+    
+    .navBar img{
+        width: 2rem;
+        height: auto;
+    }
+    
+    .navBar button{
+        font-size: 1.2rem;
+        line-height: 1.1rem;
+    }
+    
+    .body{
+        margin-block: 2rem;
+        margin-inline: 6rem;
+    }
+
+    .welcome{
+        gap: 1rem;
+    }
+
+    .welcome img{
+        height: 1.2rem;
+    }
+    
+    .welcome p{
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+
+    .heading p{
+        font-size: 3rem;
+        line-height: 2.9rem;
+        padding-block: 1rem;
+    }
+
+    .line{
+        margin-block: 1rem;
+    }
+
+    .download button{
+        padding-inline: 1.5rem;
+        height: 2rem;
+        font-size: 1rem;
+        line-height: 0.9rem;
+        margin-block:1rem;
+    }
+
+    .para p{
+        font-size: 0.9rem;
+        line-height: 1rem;
+        margin-block: 1.2rem;
+    }
+}
+
+@media (max-width:768px){
+    .body{
+        margin-block: 1rem;
+        margin-inline: 3rem;
+    }
+
+    .welcome{
+        gap: 1rem;
+    }
+
+    .welcome img{
+        height: 1rem;
+    }
+    
+    .welcome p{
+        font-size: 0.8rem;
+        line-height: 0.7rem;
+    }
+
+    .heading p{
+        font-size: 2.5rem;
+        line-height: 2.4rem;
+        padding-block: 1rem;
+    }
+
+    .line{
+        margin-block: 1rem;
+    }
+
+    .download button{
+        padding-inline: 1.5rem;
+        height: 2rem;
+        font-size: 0.9rem;
+        line-height: 0.8rem;
+        margin-block:0.5rem;
+    }
+
+    .para p{
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        margin-block: 1rem;
+    }
+}
+
+@media (max-width:500px){
+    .body{
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+    }
+    
+    .right{
+        width: 100%;
+    }
+}

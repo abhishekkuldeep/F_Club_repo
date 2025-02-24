@@ -1,17 +1,18 @@
 .main{
-    margin-top: 4rem;
+    margin-top: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-inline: 5rem;
-    padding-block: 3rem;
+    padding-inline: 8rem;
+    padding-block: 2rem;
     background-color: #181a20;
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .icon{
@@ -58,7 +59,6 @@
 
     font-size: 0.9rem;
     line-height: 0.8rem;
-    transform: translate(0,-15px);
 }
 
 .social img{
@@ -69,6 +69,7 @@
 .download{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1.2rem;
 }
@@ -84,4 +85,183 @@
 .right img{
     height: 2.8rem;
     cursor: pointer;
+}
+
+@media (min-width:1800px){
+    .main{
+        margin: 10rem;
+        margin-bottom: -10rem;
+        border-radius: 5px;
+    }
+
+    .icon{
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .heading{
+        font-size: 3rem;
+        line-height: 2.9rem;
+    }
+    
+    .followUs{
+        font-size: 3rem;
+        line-height: 2.9rem;
+    }
+
+    .btn{
+        gap: 2rem;
+    }
+    
+    .social{
+        gap: 1rem;
+        padding-block: 1rem;
+        padding-inline: 3.5rem;
+        border-radius: 4rem;   
+        font-size: 2.3rem;
+        line-height: 2.3rem;
+    }
+    
+    .social img{
+        height: 2.7rem;
+    }
+    
+    .download{
+        gap: 2.2rem;
+    }
+    
+    .download p{
+        font-size: 3rem;
+        line-height: 2.9rem;
+    }
+    
+    .right img{
+        height: 4.5rem;
+    }
+}
+
+@media (max-width:64rem){
+    .main{
+        padding-inline: 6rem;
+        padding-block: 1.5rem;
+        margin-top: 6rem;
+    }
+
+    .left{
+        gap: 1rem;
+    }
+
+    .icon{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .heading{
+        font-size:0.9rem;
+        line-height: 0.8rem;
+    }
+
+    .followUs{
+        font-size: 0.9rem;
+        line-height: 0.8rem;
+    }
+
+    .social{
+        gap: 5px;
+        padding-block: 0.3rem;
+        padding-inline: 1.3rem;
+        font-size: 0.8rem;
+        line-height: 0.7rem;
+    }
+
+    .social img{
+        height: 0.8rem;
+    }
+
+    .download{
+        gap: 1rem;
+    }
+    
+    .download p{
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+
+    .right img{
+        height: 2rem;
+    }
+}
+
+
+@media (max-width:768px){
+    .main{
+        padding-inline: 4rem;
+        padding-block: 1rem;
+        margin-top: 4rem;
+    }
+
+    .left{
+        gap: 0.8rem;
+    }
+
+    .icon{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .heading{
+        font-size:0.8rem;
+        line-height: 0.7rem;
+    }
+
+    .followUs{
+        font-size: 0.8rem;
+        line-height: 0.7rem;
+    }
+
+    .social{
+        padding-block: 0.2rem;
+        padding-inline: 1.1rem;
+        font-size: 0.7rem;
+        line-height: 0.6rem;
+    }
+
+    .social img{
+        height: 0.7rem;
+    }
+
+    .download{
+        gap: 1rem;
+    }
+    
+    .download p{
+        font-size: 0.8rem;
+        line-height: 0.7rem;
+    }
+
+    .right img{
+        height: 1.8rem;
+    }
+}
+
+@media (max-width:500px){
+    .main{
+        padding-inline: 2rem;
+        margin-top: 2rem;
+    }
+
+    .social{
+        padding: 0.5rem;
+    }
+    .social p{
+        display: none;
+    }
+
+    .social img{
+        height: 0.8rem;
+    }
+
+    .download{
+        gap: 0.5rem;
+    }
 }

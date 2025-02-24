@@ -1,22 +1,21 @@
 .main{
-    margin: 4rem;
-    padding: 5rem;
-    border-radius: 20px;
+    margin: 8rem;
+    padding: 3rem;
+    border-radius: 30px;
     background-color: #181a20;
     color: #ffffff;
 }
 
 .heading{
     font-family: serif;
-    font-size: 3rem;
-    line-height: 2.9rem;
+    font-size: 4rem;
+    line-height: 3.9rem;
     color: #ffffff;
     font-weight: 300;
 }
 
 .boxes{
-    margin-top: 8rem;
-    
+    margin-top: 6rem;
 }
 
 .cards{
@@ -26,10 +25,19 @@
     margin-block: 4rem;
 }
 
-.right img{
-    height: 12rem;
-    border-radius: 20px;
+.right{
+    width: 45%;
+}
 
+.right img{
+    max-width: 19rem;
+    border-radius: 20px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .icon{
@@ -37,6 +45,7 @@
     border: 1px solid #ffffff;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 0.5rem;
     padding-inline: 1rem;
     padding-block: 5px;
@@ -47,11 +56,6 @@
     height: 1rem;
 }
 
-.left{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
 .icon p{
     font-size: 0.9rem;
     line-height: 1rem;
@@ -62,6 +66,147 @@
 .para{
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 0.9rem;
-    width: 65%;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    max-width: 60%;
+}
+
+@media (min-width:1800px){
+    .main{
+        margin: 10rem;
+        border-radius: 3rem;
+        padding: 5rem;
+    }
+
+    .heading{
+        font-size: 8rem;
+        line-height: 7.9rem;
+    }
+
+    .cards{
+        margin-block: 6rem;
+
+    }
+
+    .right img{
+        max-width: 33rem;
+    }
+    
+    .icon{
+        gap: 1rem;
+        padding-inline: 2rem;
+        padding-block: 0.5rem;
+        border-radius: 40px;
+    }
+    
+    .icon img{
+        height: 3rem;
+    }
+    
+    .left{
+        gap: 2rem;
+    }
+
+    .icon p{
+        font-size: 2rem;
+        line-height: 1.9rem;
+    }
+    
+    .para{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width:64rem){
+    .main{
+        margin: 6rem;
+        padding: 2rem;
+        border-radius: 30px;
+    }
+
+    .heading{
+        font-size: 3rem;
+        line-height: 2.9rem;
+    }
+
+    .boxes{
+        margin-top: 4rem;
+    }
+
+    .right img{
+        max-width: 15rem;
+    }
+
+    .left{
+        gap: 1rem;
+    }
+
+    .icon img{
+        height: 0.8rem;
+    }
+
+    .icon p{
+        font-size: 0.8rem;
+        line-height: 0.7rem;
+    }
+
+    .para{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width:768px){
+    .main{
+        margin: 4rem;
+        border-radius: 20px;
+    }
+
+    .right img{
+        max-width: 13rem;
+    }
+
+    .left{
+        gap: 0.8rem;
+    }
+
+    .icon img{
+        height: 0.8rem;
+    }
+
+    .icon p{
+        font-size: 0.8rem;
+        line-height: 0.7rem;
+    }
+
+    .para{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        max-width: 75%;
+    }
+}
+
+@media (max-width:500px){
+    .main{
+        margin-inline: 2rem;
+        margin-block: 3rem;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .para{
+        max-width: 95%;
+    }
+
+    .right{
+        width: 100%;
+    }
+
 }

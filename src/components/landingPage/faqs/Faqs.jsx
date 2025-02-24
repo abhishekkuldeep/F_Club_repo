@@ -81,39 +81,6 @@ function Faqs() {
 
             </div>
 
-            
-            
-            {/* <div className={style.point}>
-                <div className={style.headline}>
-                    <h1>Who can join Foundersclub?</h1>
-                    <img src={arrow} alt="" />
-                </div>
-
-
-                {
-                    listB &&
-                    <p>Yes, Foundersclub offers free access to its features, including creating profiles, joining clubs, and participating in discussions.</p>
-                }
-
-                
-            </div> */}
-            
-            {/* <div className={style.point}>
-                <div className={style.headline}>
-                    <h1>Can I post job openings for my startup? </h1>   
-                    <img src={arrow} alt="" />
-                </div>
-
-
-                {
-                    listC &&
-                    <p>Yes, Foundersclub offers free access to its features, including creating profiles, joining clubs, and participating in discussions.</p>
-                }
-
-            </div> */}
-            
-
-
         </div>
 
     </div>

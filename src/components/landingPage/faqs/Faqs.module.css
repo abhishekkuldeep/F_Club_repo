@@ -1,18 +1,18 @@
 .main{
     background-color: #181a20;
-    margin-inline: 6rem;
-    padding: 2rem;
+    margin-inline: 8rem;
+    padding: 3rem;
     color: #ffffff;
-    border-radius: 20px;
+    border-radius: 30px;
     
 }
 
 .heading p{
-    font-size: 3rem;
-    line-height: 2.9rem;
-    font-weight: 100;
+    font-size: 3.5rem;
+    line-height: 3.4rem;
+    font-weight: 300;
     text-align: center;
-    font-family: serif;
+    font-family: Inria serif;
 }
 
 .lists{
@@ -25,6 +25,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-block: 0.5rem;
 
 }
 
@@ -43,25 +44,24 @@
 
 
 .headline h1{
-    font-size: 1.2rem;
-    line-height: 1.1rem;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
     font-weight: 400;
-    height: 2rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 .headline img{
     height: 1rem;
     cursor: pointer;
     transition: 0.3s;
-    margin-right: 4rem;
+    margin-right: 5%;
 }
 
 .points p{
     font-family: sans-serif;
-    width: 90%;
-    font-size: 0.9rem;
-    line-height: 1rem;
+    max-width: 90%;
+    font-size: 1rem;
+    line-height: 1.1rem;
     font-weight: 400;
     letter-spacing: 1px;
     color: #848e9c;
@@ -70,4 +70,127 @@
 
 .points{
     margin-top: 0.5rem;
+}
+
+@media (min-width:1800px){
+    .main{
+        margin: 10rem;
+        padding: 5rem;
+        border-radius: 50px;
+    }
+
+    .heading p{
+        font-size: 8rem;
+        line-height: 7.9rem;
+    }
+
+    .lists{
+        margin-block: 4rem;
+        margin-inline: 3.5rem;
+    }
+
+    .line{
+        height: 2px;
+    }
+
+    .headline{
+        padding-block: 1rem;
+    }
+
+    .headline h1{
+        font-size: 3rem;
+        line-height: 2.9rem;
+    }
+
+    .headline img{
+        height: 2rem;
+    }
+
+    .points p{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width:64rem){
+    .main{
+        margin-inline: 6rem;
+        padding: 2rem;
+    }
+
+    .heading p{
+        font-size: 2.5rem;
+        line-height: 2.4rem;
+    }
+
+    .lists{
+        margin-block: 2.5rem;
+        margin-inline: 2rem;
+    }
+
+    .headline h1{
+        font-size: 1rem;
+        line-height: 1rem;
+        padding-top: 0.3rem;
+    }
+
+    .headline img{
+        height: 0.8rem;
+    }
+
+    .points p{
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+        margin-top: 0px;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .main{
+        margin-inline: 4rem;
+        padding: 1rem;
+    }
+
+    .headline img{
+        height: 0.6rem;
+    }
+
+    .heading p{
+        font-size: 2rem;
+        line-height: 1.9rem;
+    }
+
+    .lists{
+        margin-block: 2rem;
+        margin-inline: 1.5rem;
+    }
+
+
+    .points p{
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }    
+}
+
+@media (max-width:500px){
+    .main{
+        margin-inline: 1rem;
+        padding: 0.8rem;
+    }
+
+    .heading p{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+    }
+
+    .headline h1{
+        padding-top: 0.2rem;
+    }
+
+    .lists{
+        margin-block: 1rem;
+        margin-inline: 0.5rem;
+    }
 }

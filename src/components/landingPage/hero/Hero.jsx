@@ -1,6 +1,6 @@
 import style from './Hero.module.css'
 import logo from '../../../assets/images/icon.png'
-import img from '../../../assets/images/hero.jpeg'
+import img from '../../../assets/images/hero.png'
 import blueicon from '../../../assets/images/blue_icon.png'
 
 function Hero() {

@@ -1,4 +1,12 @@
 .main{
     background-image: url('../../assets/images/bg_back.png');
-    background-color: #181a20;    
+    background-color: #181a20; 
+    width: 100%;
+}
+
+
+@media (min-width:1800px){
+    .main{
+        padding-inline: 15%;
+    }
 }
