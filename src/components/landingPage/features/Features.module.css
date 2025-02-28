@@ -15,7 +15,7 @@
 
 
 .body{
-    margin: 1rem;
+    margin: 0.75rem;
     background-color: #181a20;
     border-radius: 2rem;
     padding: 3rem;
@@ -86,9 +86,24 @@
     line-height: 1rem;
 }
 
+:global(.slick-prev), 
+:global(.slick-next) {
+    width: 40px !important;
+    height: 40px !important;
+    z-index: 10;
+    margin: 0 -1rem;
+}
+
+:global(.slick-prev)::before,
+:global(.slick-next)::before {
+  font-size: 30px !important;
+}
+
+
 @media (min-width:1800px){
     .main {
         margin: 10rem;
+        margin-inline: 10%;
     }
     .heading p{
         font-size: 8rem;
@@ -135,6 +150,18 @@
         font-size: 2.5rem;
         line-height: 2.4rem;
     }
+
+    :global(.slick-prev), 
+    :global(.slick-next) {
+        width: 3rem !important;
+        height: 3rem !important;
+        margin: 0 -2.5rem;
+      }
+    
+      :global(.slick-prev)::before,
+      :global(.slick-next)::before {
+        font-size: 2.5rem !important;
+      }
 }
 
 
@@ -144,7 +171,7 @@
     }
 
     .body{
-        margin: 0rem;
+        margin-inline:0.25rem;
         padding: 2rem;
         border-radius: 30px;
     }
@@ -191,6 +218,8 @@
     .body{
         padding: 1rem;
         border-radius: 20px;
+        margin-inline:0.25rem;
+
     }
 
     .title{
@@ -221,6 +250,7 @@
 
     .body{
         flex-direction: column;
+        margin-inline:0.25rem;
     }
 
     .left{
@@ -229,5 +259,17 @@
 
     .right{
         width: 100%;
+    }
+
+    :global(.slick-prev), 
+    :global(.slick-next) {
+        width: 25px !important;
+        height: 25px !important;
+        margin: 0 -0.5rem;
+    }
+    
+    :global(.slick-prev)::before,
+    :global(.slick-next)::before {
+        font-size: 20px !important;
     }
 }

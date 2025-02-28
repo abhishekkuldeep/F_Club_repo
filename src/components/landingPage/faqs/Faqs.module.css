@@ -26,6 +26,7 @@
     justify-content: space-between;
     align-items: center;
     padding-block: 0.5rem;
+    cursor: pointer;
 
 }
 
@@ -40,6 +41,7 @@
     height: 1px;
     width: 100%;
     background: linear-gradient(to right, transparent, #ffe67d, transparent);
+    opacity: 30%;
 }
 
 
@@ -77,6 +79,7 @@
         margin: 10rem;
         padding: 5rem;
         border-radius: 50px;
+        margin-inline: 10%;
     }
 
     .heading p{
@@ -90,7 +93,7 @@
     }
 
     .line{
-        height: 2px;
+        height: 3px;
     }
 
     .headline{

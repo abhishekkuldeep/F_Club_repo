@@ -52,11 +52,13 @@ function Features() {
   ]
 
   const settings = {
-    dots: true,
-    infinite: false,
-    speed: 1000,
+    dots: false,
+    infinite: true,
+    speed: 2000,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed:1500
   };
 
   return (

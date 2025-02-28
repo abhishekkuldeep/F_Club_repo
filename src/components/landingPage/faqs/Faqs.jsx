@@ -20,9 +20,9 @@ function Faqs() {
         <div className={style.lists}>
             <div className={style.points}>
                 <div className={style.header}>
-                    <div className={style.headline}>
+                    <div onClick={() => (setListA(!listA))} className={style.headline}>
                         <h1>Is Founders club free to use?</h1>
-                        <img onClick={() => (setListA(!listA))} style={{transform: `rotate(${listA ? 90:0}deg)`}} src={arrow} alt="" />
+                        <img style={{transform: `rotate(${listA ? 90:0}deg)`}} src={arrow} alt="" />
                     </div>
 
                     {
@@ -41,9 +41,9 @@ function Faqs() {
 
             <div className={style.points}>
                 <div className={style.header}>
-                    <div className={style.headline}>
+                    <div onClick={() => (setListB(!listB))} className={style.headline}>
                         <h1>Who can join Foundersclub?</h1>
-                        <img onClick={() => (setListB(!listB))} style={{transform: `rotate(${listB ? 90:0}deg)`}} src={arrow} alt="" />
+                        <img style={{transform: `rotate(${listB ? 90:0}deg)`}} src={arrow} alt="" />
                     </div>
 
                     {
@@ -62,9 +62,9 @@ function Faqs() {
 
             <div className={style.points}>
                 <div className={style.header}>
-                    <div className={style.headline}>
+                    <div onClick={() => (setListC(!listC))} className={style.headline}>
                         <h1>Can I post job openings for my startup?</h1>
-                        <img onClick={() => (setListC(!listC))} style={{transform: `rotate(${listC ? 90:0}deg)`}} src={arrow} alt="" />
+                        <img style={{transform: `rotate(${listC ? 90:0}deg)`}} src={arrow} alt="" />
                     </div>
 
                     {

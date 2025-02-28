@@ -25,10 +25,6 @@
     margin-block: 4rem;
 }
 
-.right{
-    width: 45%;
-}
-
 .right img{
     max-width: 19rem;
     border-radius: 20px;
@@ -76,6 +72,7 @@
         margin: 10rem;
         border-radius: 3rem;
         padding: 5rem;
+        margin-inline: 10%;
     }
 
     .heading{
@@ -87,6 +84,7 @@
         margin-block: 6rem;
 
     }
+
 
     .right img{
         max-width: 33rem;

@@ -54,6 +54,7 @@
         padding-inline: 5rem;
         padding-block: 10rem;
         border-radius: 22rem;
+        margin-inline: 10%;
     }
 
     .heading{
@@ -132,7 +133,7 @@
     .main{
         margin: 2rem;
         padding-inline: 2rem;
-        padding-block: 1rem;
+        padding-block: 1.5rem;
     }
 
     .heading h1{
@@ -152,4 +153,6 @@
         line-height: 0.9rem;
         margin-top: 0.5rem;
     }
+
+    
 }

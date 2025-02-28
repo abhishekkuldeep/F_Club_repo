@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-inline: 8rem;
-    padding-block: 2rem;
+    padding-block: 5rem;
     background-color: #181a20;
 }
 
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .icon{
@@ -89,9 +89,13 @@
 
 @media (min-width:1800px){
     .main{
-        margin: 10rem;
-        margin-bottom: -10rem;
+        padding-inline: 10%;
+        padding-block: 10rem;
         border-radius: 5px;
+    }
+
+    .left{
+        gap: 3rem;
     }
 
     .icon{
@@ -127,7 +131,7 @@
     }
     
     .download{
-        gap: 2.2rem;
+        gap: 3rem;
     }
     
     .download p{
@@ -143,12 +147,12 @@
 @media (max-width:64rem){
     .main{
         padding-inline: 6rem;
-        padding-block: 1.5rem;
+        padding-block: 4rem;
         margin-top: 6rem;
     }
 
     .left{
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .icon{
@@ -196,12 +200,12 @@
 @media (max-width:768px){
     .main{
         padding-inline: 4rem;
-        padding-block: 1rem;
+        padding-block: 3rem;
         margin-top: 4rem;
     }
 
     .left{
-        gap: 0.8rem;
+        gap: 1.5rem;
     }
 
     .icon{
@@ -262,6 +266,14 @@
     }
 
     .download{
-        gap: 0.5rem;
+        gap: 1rem;
+        justify-content: end;
+
     }
+
+    .download p{
+        width: 100%;
+        text-align: end;
+    }
+
 }
